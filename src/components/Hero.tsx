@@ -1,5 +1,5 @@
 
-import { BeachIcon } from "lucide-react";
+import { Umbrella } from "lucide-react";
 import {
   Carousel,
   CarouselContent,
@@ -38,7 +38,7 @@ const Hero = () => {
       
       <div className="text-center max-w-3xl mx-auto z-10">
         <div className="flex items-center justify-center gap-2 mb-4">
-          <BeachIcon className="w-8 h-8 text-[#8B5CF6]" />
+          <Umbrella className="w-8 h-8 text-[#8B5CF6]" />
           <h1 className="text-4xl md:text-6xl font-bold text-[#1A1F2C]">
             Carlos Silva
           </h1>
