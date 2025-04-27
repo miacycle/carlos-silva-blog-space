@@ -4,15 +4,13 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel";
 
 const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col items-center justify-center pt-16 px-4 relative"
+      className="min-h-screen flex flex-col items-center justify-center pt-16 px-4 relative bg-background"
     >
       <div className="absolute inset-0 z-0">
         <Carousel className="w-full h-full">
@@ -38,27 +36,27 @@ const Hero = () => {
       
       <div className="text-center max-w-3xl mx-auto z-10">
         <div className="flex items-center justify-center gap-2 mb-4">
-          <Umbrella className="w-8 h-8 text-[#8B5CF6]" />
-          <h1 className="text-4xl md:text-6xl font-bold text-[#1A1F2C]">
+          <Umbrella className="w-8 h-8 text-secondary" />
+          <h1 className="text-4xl md:text-6xl font-bold text-foreground">
             Carlos Silva
           </h1>
         </div>
-        <h2 className="text-xl md:text-2xl text-gray-600 mb-6">
+        <h2 className="text-xl md:text-2xl text-secondary mb-6">
           Software Engineer | Configuration Management | Infrastructure Operations
         </h2>
-        <p className="text-lg text-gray-600 mb-8 flex items-center justify-center gap-2">
+        <p className="text-lg text-secondary mb-8 flex items-center justify-center gap-2">
           Based in São Paulo, Brazil 🇧🇷
         </p>
         <div className="space-x-4">
           <a
             href="#about"
-            className="inline-block px-6 py-3 bg-[#8B5CF6] text-white rounded-lg hover:bg-[#7C3AED] transition-colors"
+            className="inline-block px-6 py-3 bg-primary text-foreground rounded-lg hover:bg-secondary/20 transition-colors"
           >
             About Me
           </a>
           <a
             href="#contact"
-            className="inline-block px-6 py-3 border-2 border-[#8B5CF6] text-[#8B5CF6] rounded-lg hover:bg-[#8B5CF6] hover:text-white transition-colors"
+            className="inline-block px-6 py-3 border-2 border-primary text-foreground rounded-lg hover:bg-primary/50 transition-colors"
           >
             Get in Touch
           </a>
