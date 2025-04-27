@@ -1,25 +1,25 @@
 
 const experiences = [
   {
-    title: "Software Engineer",
+    title: "Ingeniero de Software",
     company: "Tech Solutions Brasil",
-    location: "São Paulo, Brazil",
-    period: "January 2022 – Present",
+    location: "São Paulo, Brasil",
+    period: "Enero 2022 – Actualidad",
     achievements: [
-      "Led the implementation of a robust infrastructure as code (IaC) strategy using Terraform and AWS, reducing manual intervention and deployment time by 40%.",
-      "Designed and maintained scalable Kubernetes clusters to run microservices, resulting in 99.9% uptime for production systems.",
-      "Managed CI/CD pipelines using Jenkins and GitLab CI, optimizing build times and enhancing developer productivity.",
+      "Lideré la implementación de una estrategia robusta de infraestructura como código (IaC) utilizando Terraform y AWS, reduciendo la intervención manual y el tiempo de implementación en un 40%.",
+      "Diseñé y mantuve clústeres de Kubernetes escalables para ejecutar microservicios, logrando un tiempo de actividad del 99.9% para sistemas de producción.",
+      "Gestioné tuberías de CI/CD utilizando Jenkins y GitLab CI, optimizando los tiempos de compilación y mejorando la productividad de los desarrolladores.",
     ],
   },
   {
-    title: "DevOps Engineer",
+    title: "Ingeniero DevOps",
     company: "GlobalTech Solutions",
-    location: "Remote (Brazil)",
-    period: "August 2018 – December 2021",
+    location: "Remoto (Brasil)",
+    period: "Agosto 2018 – Diciembre 2021",
     achievements: [
-      "Spearheaded migration of on-premise infrastructure to AWS, improving system performance by 30% and cutting operational costs by 25%.",
-      "Managed multi-region, multi-account AWS infrastructure, including VPCs, EC2 instances, RDS databases, and S3 storage.",
-      "Developed automated deployment pipelines using Jenkins, enabling faster software delivery and reducing deployment errors.",
+      "Abanderé la migración de infraestructura local a AWS, mejorando el rendimiento del sistema en un 30% y reduciendo los costos operativos en un 25%.",
+      "Gestioné infraestructura de AWS con múltiples regiones y múltiples cuentas, incluyendo VPCs, instancias EC2, bases de datos RDS y almacenamiento S3.",
+      "Desarrollé tuberías de implementación automatizadas utilizando Jenkins, permitiendo una entrega de software más rápida y reduciendo los errores de implementación.",
     ],
   },
 ];
