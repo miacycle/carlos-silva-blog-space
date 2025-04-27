@@ -1,11 +1,16 @@
 
+import { Mountain } from "lucide-react";
+
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-gray-50">
+    <section id="about" className="py-20 bg-gray-50 relative">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12 text-[#1A1F2C]">
-          About Me
-        </h2>
+        <div className="flex items-center justify-center gap-3 mb-12">
+          <Mountain className="w-8 h-8 text-[#8B5CF6]" />
+          <h2 className="text-3xl font-bold text-center text-[#1A1F2C]">
+            About Me
+          </h2>
+        </div>
         <div className="max-w-3xl mx-auto text-gray-600 space-y-6">
           <p>
             Passionate about technology, automation, and building scalable,
